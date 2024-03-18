@@ -386,6 +386,10 @@ body .content .footer .content p.Copyright a {
     background: #42200b;
     padding: 2rem;
     transition: 0.3s ease-in-out;
+    color: #ffffff;
+  }
+  body .content .header nav ul li {
+    color: #ffffff;
   }
   body .content .header nav ul li a {
     color: #ffffff;
