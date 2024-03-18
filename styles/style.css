@@ -456,6 +456,13 @@ body .content .footer .content p.Copyright a {
 body .content .header nav ul.show {
   top: 9rem;
   left: 0;
+  color: #ffffff;
+}
+body .content .header nav ul.show li {
+  color: #ffffff;
+}
+body .content .header nav ul.show li a {
+  color: #ffffff;
 }
 
 @keyframes hue {

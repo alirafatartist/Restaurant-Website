@@ -493,6 +493,13 @@ body {
 body .content .header nav ul.show {
   top: 9rem;
   left: 0;
+  color: $white;
+  li {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
 }
 @keyframes hue {
   0% {
