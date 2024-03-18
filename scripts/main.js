@@ -6,6 +6,7 @@ const links = document.querySelector("nav ul");
 function changeimgsrc() {
   if (window.innerWidth <= 768) {
     logo.setAttribute("src", "./assets/logo-white.png");
+    links.style.color = "#ffffff";
   } else {
     logo.setAttribute("src", "./assets/logo-dark.png");
   }
@@ -15,7 +16,9 @@ changeimgsrc();
 window.addEventListener("resize", () => {
   changeimgsrc();
 });
-
+window.addEventListener("onload", () => {
+  changeimgsrc();
+});
 // toggle menubar
 menu.addEventListener("click", () => {
   menu.classList.toggle("fa-xmark");
