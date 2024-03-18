@@ -75,7 +75,7 @@ body {
       align-items: center;
       justify-content: center;
       padding-inline: 10rem;
-      background: url("/assets/header-bg.png");
+      background: url("./assets/header-bg.png");
       gap: 10rem;
       padding-top: 10rem;
       margin: auto;
@@ -325,7 +325,7 @@ body {
         grid-template-rows: repeat(2, 1fr);
         padding: 5rem;
 
-        background: url("/assets/footer-bg.png") no-repeat;
+        background: url("./assets/footer-bg.png") no-repeat;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
