@@ -28,6 +28,9 @@ const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
   duration: 1000,
+  delay: 500,
+  useDelay: "onload",
+  reset: true,
 };
 ScrollReveal().reveal(".home img", {
   ...scrollRevealOption,
@@ -40,4 +43,15 @@ ScrollReveal().reveal(".home .content h2", {
 ScrollReveal().reveal(".home .content p", {
   ...scrollRevealOption,
   delay: 1000,
+});
+ScrollReveal().reveal(".menu .cards .card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+ScrollReveal().reveal(".contactus img", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+ScrollReveal().reveal(".header li", {
+  interval: 200,
 });
