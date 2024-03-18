@@ -67,7 +67,7 @@ body .content .home {
   align-items: center;
   justify-content: center;
   padding-inline: 10rem;
-  background: url(/assets/header-bg.png);
+  background: url("/assets/header-bg.png");
   gap: 10rem;
   padding-top: 10rem;
   margin: auto;
