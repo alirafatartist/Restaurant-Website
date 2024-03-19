@@ -1,7 +1,6 @@
 const logo = document.querySelector(".logo");
 const menu = document.querySelector(".fa-bars");
 const links = document.querySelector("nav ul");
-// const img = document.querySelector("nav ul");
 
 function changeimgsrc() {
   if (window.innerWidth <= 768) {
@@ -55,6 +54,8 @@ ScrollReveal().reveal(".contactus img", {
   ...scrollRevealOption,
   interval: 500,
 });
-ScrollReveal().reveal(".header li", {
-  interval: 200,
-});
+if (window.innerWidth > 786) {
+  ScrollReveal().reveal(".header li", {
+    interval: 200,
+  });
+}
